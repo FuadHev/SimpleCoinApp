@@ -47,7 +47,6 @@ class GetCoinsUseCase @Inject constructor(var repository: CoinsRepository) {
             val response = repository.getCoins()
             if (response.isSuccessful && response.code() == 200) {
                 emit(Resource.Success(response.body()!!))
-                Log.e("daata",response.body()!!.toString())
                 return@liveData
             }
             if (response.code() == 401) {

@@ -58,11 +58,12 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
     kapt 'com.google.dagger:hilt-compiler:2.46'
     //retrofit
+    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation "com.squareup.okhttp3:logging-interceptor:4.7.2"
-
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.squareup.retrofit2:retrofit:2.8.1'
     implementation 'com.squareup.retrofit2:converter-moshi:2.6.2'
-
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
